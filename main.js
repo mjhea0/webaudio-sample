@@ -19,6 +19,7 @@ function request() {
     context.decodeAudioData(request.response, function(buffer) {
       // play!
       console.log("playing ...")
+      console.log("for raphael <3")
       playSound(buffer);
     });
   };
